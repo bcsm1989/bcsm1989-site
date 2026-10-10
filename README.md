@@ -1,31 +1,74 @@
-# เว็บไซต์ bcsm1989.com
+# BCSM 1989 — Earth & Energy
 
-## ก่อนอัปโหลด
-- ค้นหา `08X-XXX-XXXX` ในทุกไฟล์ .html แล้วแทนด้วยเบอร์จริง
-- Cloudflare → Email Routing เพิ่มที่อยู่ `privacy@` และ `support@` ให้ส่งต่อเข้า Gmail
-- ตรวจหน้า /privacy/ และ /delete-account/ ให้ตรงกับที่แอป Gramick ทำได้จริง (เมนูลบบัญชี, ข้อมูลที่เก็บ)
+Source for bcsm1989.com. Deployed automatically to GitHub Pages from the `main` branch.
 
-## อัปขึ้น GitHub Pages
-1. github.com → New repository ชื่อ `bcsm1989-site` (Public)
-2. Add file → Upload files → ลากไฟล์และโฟลเดอร์ทั้งหมดในโฟลเดอร์นี้ขึ้นไป → Commit
-3. Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)` → Save
-4. Custom domain: `bcsm1989.com` → Save
+This project contains a complete buildless static website. The existing domain has not been changed. The preview is owner-private on Sites. The user's later construction-render brief confirms the charging project is in development; this status is made explicit on the home and charging pages.
 
-## ตั้ง DNS ใน Cloudflare (DNS → Records → Add record)
-| Type | Name | Content | Proxy |
-|---|---|---|---|
-| A | @ | 185.199.108.153 | DNS only (เมฆเทา) |
-| A | @ | 185.199.109.153 | DNS only |
-| A | @ | 185.199.110.153 | DNS only |
-| A | @ | 185.199.111.153 | DNS only |
-| CNAME | www | <ชื่อผู้ใช้ GitHub>.github.io | DNS only |
+## Files and editing
 
-ไม่ต้องแตะระเบียน MX/TXT ของอีเมล
+- `dist/`: complete website, ready for a static web host.
+- `dist/style.css`: warm cream, sand, ochre, walnut and olive design system, responsive layouts.
+- `dist/app.js`: Thai / English preference, mobile navigation, filtered gallery and accessible native image dialog.
+- `scripts/build.py`: generates eight bilingual pages from shared components.
+- `source-original/`: public HTML captured from bcsm1989.com for content comparison; not part of the deployed public directory.
+- `scripts/verify.py`: validates pages, local references and preserved policy text.
 
-5. รอ 10–30 นาที กลับไป GitHub → Settings → Pages → ติ๊ก **Enforce HTTPS**
+Run `python scripts/build.py`, `python scripts/verify.py` and `node --check dist/app.js` after editing. There are no JavaScript package dependencies or build tools to install.
 
-## ลิงก์ที่ใช้กรอกในสโตร์
-- Website / Marketing URL: https://bcsm1989.com
-- Support URL: https://bcsm1989.com/support/
-- Privacy Policy URL: https://bcsm1989.com/privacy/
-- Account deletion URL (Google Play): https://bcsm1989.com/delete-account/
+## Pages
+
+`/`, `/about/`, `/charging/`, `/around/`, `/location/`, `/support/`, `/privacy/`, `/delete-account/`.
+
+All four original routes remain available. Privacy and account deletion page bodies are preserved verbatim in Thai and English from the live site. Published phone, email, address, tax ID and support hours were retained. Charger power, tariff, live occupancy, unverified app download links and an opening date were not invented.
+
+## Photography mapping
+
+| Supplied file | Website asset | Placement |
+| --- | --- | --- |
+| IMG_6480.jpeg | station-main.jpg | Home hero and station gallery |
+| IMG_6475.jpeg | cafe-and-shops.jpg | Home services, charging breaks, around page |
+| IMG_6483.jpeg | car-care.jpg | Home car care and around page |
+| IMG_6470.jpeg | oil-change.jpg | Home vehicle service and around page |
+| IMG_6468.jpeg | station-panorama.jpg | Around page panorama, location and gallery |
+| IMG_6466(1).jpeg | station-arrival.jpg | Home location and directions page |
+| IMG_6482.jpeg | car-care-wide.jpg | Gallery, alternate wide service view |
+| IMG_6471.jpeg | car-care-front.jpg | Gallery, service building front view |
+| IMG_6484.jpeg | logo-earth.png | Reference for recolored B mark in header and footer |
+| IMG_6485.jpeg | Reference only | Existing BCSM 1989 wordmark and brand context |
+
+Original photographs are copied without alteration. Display cropping uses CSS. No photograph is represented as an EV charger installation. The lightning illustration is a decorative SVG, not an equipment rendering.
+
+The supplied 28 September 2026 preliminary concept PDF by Mind Architects provided embedded rendering assets extracted without changing their pixels: page 14 (`ev-day.jpeg`) for the home hero and charging page; page 15 (`ev-evening.jpeg`) for the evening toggle; page 18 (`ev-truck.jpeg`) for the fleet concept; page 17 (`ev-angle.jpeg`) is available as an alternate angle. Every displayed rendering is labelled as a project visualisation and has a designer credit. The PDF contains multiple layout alternatives, so no turning-path drawing is presented as a final operating route.
+
+The user-supplied map link is `https://maps.app.goo.gl/R7ZDGiL1ck6afbDa6?g_st=ic`. Its redirect identifies the station as Google Maps feature ID `0x311cf13ed173b15b:0xe33bedbc05fd49f9`, CID `16373942262045690361`. The Google embed returned HTTP 200 and station address `78 Moo 4, Krok Sombun, Si Maha Phot, Prachin Buri 25140`, with coordinates `13.897771, 101.589606`. The location page embeds this precise place; the directions buttons open the original user-supplied link.
+
+## Brand
+
+Background #F7F5EF; surface #FFFDF8; sand #EAE4D8; dark ink #302C24; accent ochre #BF9448; honey #E8CD86; olive #767C60.
+
+Logo editing used the built-in Imagegen tool. Final prompt: Recolor only the exact existing B logo, preserving its geometry and gaps. Top blue segment becomes ochre #B78A3D, centre teal ribbon becomes golden sand #D3B065, lower/right section becomes walnut #5A4938. Uniform cream #F7F5EF background and negative spaces; no new symbols or text. Final asset: `dist/assets/logo-earth.png`. This is a raster website variant, not an original vector master. The generated variant retains slight tonal variation.
+
+## Production handoff
+
+1. Every push to `main` runs `.github/workflows/pages.yml`: it executes `scripts/build.py` and `scripts/verify.py`, then publishes `dist/` to GitHub Pages at bcsm1989.com (custom domain via `dist/CNAME`).
+2. Edit content in `scripts/build.py` and theme in `dist/style.css`; commit and the site redeploys in about a minute.
+3. The site is public: `index,follow`, per-page canonical URLs, `sitemap.xml` and an allow-all `robots.txt` are generated by the build. To hide the site temporarily, change `index,follow` to `noindex,nofollow` in `build.py`.
+4. Test the Thai and English layout and all links in desktop Safari/Chrome and iOS/Android. Test the supplied exact Google Maps place and the embedded map on target devices.
+5. Confirm the current app link, charger operating status, tariffs, power and opening hours before adding them. The 08:00–20:00 hours shown are support hours only.
+
+Fonts use Google Fonts (Manrope and Noto Sans Thai), with system fallbacks. The location page embeds Google Maps. The website adds no first-party analytics, form submissions or live charging API. Switching language stores only the selected language in the visitor's browser. Account deletion is requested through the existing app/email process; the website itself does not delete accounts.
+
+## Validation
+
+All eight bilingual documents, local assets and internal links were validated. Both policy page bodies match their original captured source. JavaScript syntax was checked. Browser rendering and interactions were not exercised because the supported browser QA capability was unavailable in this environment.
+
+## Credibility update — 10 October 2026
+
+- Added a bilingual company page with the existing published company name, tax ID, address, telephone, email and support hours. No founding-date, certification, review or customer-count claims were added.
+- Reworked the homepage around project ownership, actual station photography, location and direct support. Kept the architectural concept clearly labelled.
+- Made the pre-opening status prominent on home, charging, location and support pages. Charging steps are framed as guidance for after opening.
+- Added pre-visit questions covering opening status, unannounced tariffs and power, fleet suitability, and surrounding services.
+- Refined the cream, ochre and deep olive design, typography, shared header and mobile call/directions bar.
+- Fixed the gallery grid nesting and aligned the navigation breakpoint with the expanded menu.
+
+Validation: the existing link and policy verification passed for eight bilingual pages and 308 references. HTML element nesting and JavaScript syntax were checked. Browser rendering was not tested because the supported browser QA capability was unavailable.

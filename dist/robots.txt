@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bcsm1989.com/sitemap.xml
