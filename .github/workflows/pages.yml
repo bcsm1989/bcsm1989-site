@@ -26,15 +26,6 @@ jobs:
         run: |
           python scripts/build.py
           python scripts/verify.py
-      - name: Record HTTPS status into site
-        continue-on-error: true
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh api repos/${{ github.repository }}/pages \
-            --jq '{checked_at: (now|todate), cname, https_enforced, cert_state: (.https_certificate.state // "none"), cert_desc: (.https_certificate.description // ""), cert_domains: (.https_certificate.domains // [])}' \
-            > dist/_status.json || echo '{"error":"pages api unavailable"}' > dist/_status.json
-          cat dist/_status.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
