@@ -45,9 +45,19 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          state=$(gh api repos/${{ github.repository }}/pages --jq '.https_certificate.state // "none"')
-          enforced=$(gh api repos/${{ github.repository }}/pages --jq '.https_enforced')
+          pages=$(gh api repos/${{ github.repository }}/pages)
+          state=$(echo "$pages" | jq -r '.https_certificate.state // "none"')
+          desc=$(echo "$pages" | jq -r '.https_certificate.description // ""')
+          enforced=$(echo "$pages" | jq -r '.https_enforced')
           echo "certificate: $state | enforced: $enforced"
+          {
+            echo "## HTTPS status"
+            echo "- certificate state: **$state**"
+            echo "- description: $desc"
+            echo "- https_enforced: **$enforced**"
+            echo "- cname: $(echo "$pages" | jq -r '.cname')"
+            echo "- domains: $(echo "$pages" | jq -c '.https_certificate.domains // []')"
+          } >> "$GITHUB_STEP_SUMMARY"
           if [ "$state" = "approved" ] && [ "$enforced" != "true" ]; then
             gh api -X PUT repos/${{ github.repository }}/pages -F https_enforced=true
             echo "Enforce HTTPS enabled"
