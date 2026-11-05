@@ -34,9 +34,9 @@ for path,doc in docs.items():
         if target.is_dir():target=target/'index.html'
         if not target.exists():errors.append(f'{path}: missing {url}')
         elif parsed.fragment and target in docs and parsed.fragment not in docs[target].ids:errors.append(f'{path}: missing fragment {url}')
-for slug in ['privacy','delete-account']:
+for slug in ['terms','privacy','delete-account']:
     original=(ROOT/'source-original'/f'{slug}.html').read_text()
     body=re.search(r'<main><div class="wrap">(.*?)</div></main>',original,re.S).group(1)
     if body not in (DIST/slug/'index.html').read_text():errors.append(f'{slug}: source content changed')
 if errors:raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(docs)} bilingual pages, {nrefs} references, all local paths and anchors, image alt text, unique IDs, single h1 per page; both policy bodies unchanged.')
+print(f'PASS: {len(docs)} bilingual pages, {nrefs} references, all local paths and anchors, image alt text, unique IDs, single h1 per page; terms, privacy and deletion bodies unchanged.')
