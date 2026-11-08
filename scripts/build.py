@@ -80,10 +80,17 @@ def visit_faq():
 
 CHARGE_ART=f"""<div class="charge-art" aria-label="EV charging graphic"><div class="art-top"><span>BCSM 1989</span><span>EV PROJECT</span></div><svg class="bolt-art" viewBox="0 0 200 280" fill="none" aria-hidden="true"><path d="M122 16 35 156h67l-23 108L169 120h-66l19-104Z" fill="currentColor"/></svg><div class="art-bottom"><strong>Charge. Rest. Go.</strong><span>CCS2 / DC</span></div></div>"""
 
-HOME=f"""<section class="hero project-hero container reveal">
-    <div class="project-intro"><div><div class="eyebrow">BCSM 1989 · EARTH & ENERGY</div><h1>{t('เติมพลังให้รถ<br><em>พักให้เต็มที่</em>','New energy.<br><em>A better stop.</em>')}</h1><div class="hero-location">{icon('pin')}{t('เชลล์ คลองรั้งสายนอก · ถนน 304 · ปราจีนบุรี','Shell Khlong Rang · Route 304 · Prachin Buri')}</div></div>
-    <div class="project-intro-right"><span class="status-tag">{icon('clock')}{t('โครงการชาร์จอยู่ระหว่างพัฒนา','Charging project in development')}</span><p class="intro">{t('โครงการสถานีชาร์จรถไฟฟ้า โดยบริษัท บีซีเอสเอ็ม 1989 จำกัด เชื่อมต่อการเดินทางกับพื้นที่พัก คาเฟ่ และบริการดูแลรถ ภายในสถานีเชลล์ คลองรั้งสายนอก','An EV charging project by BCSM 1989 Co., Ltd., bringing a new energy stop to the café, shops and vehicle services at Shell Khlong Rang.')}</p><div class="actions">{button('/charging/','รู้จักโครงการชาร์จ','Explore the project','gold')}{button(MAP,'แผนที่สถานี','Get directions','outline',True)}</div></div></div>
-    <figure class="hero-photo project-photo">{photo('ev-day.jpeg','ภาพจำลองโครงการสถานีชาร์จ BCSM 1989 มุมด้านหน้า','Architectural visualisation of the planned BCSM EV station',eager=True)}<span class="render-label">{t('ภาพจำลองโครงการ · ยังไม่ใช่ภาพสถานีที่เปิดบริการ','PROJECT VISUALISATION · NOT YET OPERATING')}</span><figcaption class="image-caption"><div><p>THE NEXT CHAPTER / ROUTE 304</p><strong>{t('พลังงานใหม่ บนเส้นทางที่คุ้นเคย','New energy. A familiar destination.')}</strong></div><a href="/charging/#design" class="round-arrow" aria-label="ดูแบบสถานี / Explore the design">{icon('up')}</a></figcaption></figure>
+HOME=f"""<section class="container station-cover">
+    <div class="station-spread">
+      <div class="station-story">
+        <div class="station-route">{icon('pin')}{t('ถนน 304 · ศรีมหาโพธิ','Route 304 · Si Maha Phot')}</div>
+        <h1>{t('สถานีชาร์จไฟฟ้า<br>คลองรั้งสายนอก','EV charging at<br>Khlong Rang')}</h1>
+        <p>{t('โครงการสถานีชาร์จของ BCSM 1989 ภายในปั๊มเชลล์ คลองรั้งสายนอก จ.ปราจีนบุรี พร้อมพื้นที่พัก คาเฟ่ และบริการดูแลรถในบริเวณเดียวกัน','The BCSM 1989 charging project at Shell Khlong Rang in Prachin Buri, alongside the café and vehicle services.')}</p>
+        <span class="station-status">{t('อยู่ระหว่างพัฒนา · ยังไม่เปิดชาร์จ','In development · Charging not yet open')}</span>
+        <div class="actions">{button(MAP,'นำทางไปปั๊มเชลล์','Directions to Shell','gold',True)}{link('/charging/','ดูโครงการชาร์จ','Explore the project')}</div>
+      </div>
+      <figure class="station-drawing">{photo('ev-day.jpeg','ภาพจำลองสถานีชาร์จที่เชลล์ คลองรั้งสายนอก','Architectural rendering of the charging station at Shell Khlong Rang',eager=True)}<figcaption>{t('ภาพจำลองโครงการ','Project rendering')}</figcaption></figure>
+    </div>
     <div class="project-meta"><span>{t('แบบแนวคิด 28 ก.ย. 2569 · รายละเอียดอาจเปลี่ยนตามแบบก่อสร้างจริง','Concept dated 28 Sep 2026 · Subject to final construction design')}</span><span>© Mind Architects co., ltd. 2026</span></div>
     <div class="trust-rail"><a href="/about/"><span class="trust-index">01 / COMPANY</span><strong>{t('รู้จักผู้พัฒนาโครงการ','Know the project company')}</strong><span>{t('ข้อมูลบริษัทและช่องทางติดต่อ','Company information & contacts')}{icon('arrow')}</span></a><a href="/location/"><span class="trust-index">02 / LOCATION</span><strong>{t('ที่ตั้งชัดเจน เดินทางได้จริง','A place you can find')}</strong><span>{t('แผนที่สถานีเชลล์ คลองรั้งสายนอก','Shell Khlong Rang on Google Maps')}{icon('arrow')}</span></a><a href="/support/"><span class="trust-index">03 / SUPPORT</span><strong>{t('มีช่องทางติดต่อทีมงาน','Speak directly with our team')}</strong><span>{t('ศูนย์ช่วยเหลือทุกวัน 08:00–20:00 น.','Daily support, 08:00–20:00')}{icon('arrow')}</span></a></div>
 </section>
