@@ -1,5 +1,12 @@
 (function(){
   var ENDPOINT='https://docs.google.com/forms/d/e/1FAIpQLSepgbnSNx0f_INX93hNy56eAZLVu_ThDKhLcwQfb3MtEpgb_w/formResponse';
+  // ช่องทางที่ลูกค้าเข้ามา: ลิงก์สั้น /fleet/line/ /fleet/fb/ /fleet/direct/ พามาที่ /fleet/?ch=...
+  // ค่าต้องตรงกับตัวเลือกในคำถาม "ช่องทางที่พบแบบประเมินนี้" ของ Google Form (entry.1169509254)
+  var CHANNELS={line:'LINE',fb:'Facebook',direct:'ติดต่อตรง (พนักงาน / ส่งลิงก์ให้)'};
+  var ch=(new URLSearchParams(location.search).get('ch')||'').toLowerCase();
+  var CHANNEL=CHANNELS[ch]||'เว็บไซต์ bcsm1989.com';
+  [].forEach.call(document.querySelectorAll('a[href*="docs.google.com/forms"]'),function(a){
+    a.href=a.href.replace(/entry\.1169509254=[^&]*/,'entry.1169509254='+encodeURIComponent(CHANNEL));});
   var form=document.getElementById('fleetForm'),panes=[].slice.call(form.querySelectorAll('.step-pane')),dots=[].slice.call(document.querySelectorAll('#steps li'));
   var back=document.getElementById('back'),next=document.getElementById('next'),send=document.getElementById('send'),formErr=document.getElementById('formErr'),cur=0;
   function setErr(f,msg){var e=f.querySelector('.err');f.classList.toggle('bad',!!msg);if(e){e.textContent=msg||'';e.hidden=!msg;}}
@@ -29,8 +36,7 @@
   form.addEventListener('submit',function(e){e.preventDefault();
     for(var i=0;i<panes.length;i++){if(!validate(i)){if(i!==cur){show(i);validate(i);}return;}}
     var body=new URLSearchParams(new FormData(form));body.append('pageHistory','0,1,2,3');
-    // ช่องทาง: ระบุว่ามาจากฟอร์มบนเว็บ (ค่าต้องตรงกับตัวเลือกในคำถาม "ช่องทางที่พบแบบประเมินนี้" ของ Google Form)
-    body.append('entry.1169509254','เว็บไซต์ bcsm1989.com');
+    body.append('entry.1169509254',CHANNEL);
     send.disabled=true;send.textContent='กำลังส่ง…';
     fetch(ENDPOINT,{method:'POST',mode:'no-cors',body:body}).then(function(){
       form.hidden=true;document.getElementById('steps').hidden=true;var d=document.getElementById('done');d.hidden=false;d.focus();d.scrollIntoView({block:'center'});
