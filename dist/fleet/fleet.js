@@ -29,6 +29,8 @@
   form.addEventListener('submit',function(e){e.preventDefault();
     for(var i=0;i<panes.length;i++){if(!validate(i)){if(i!==cur){show(i);validate(i);}return;}}
     var body=new URLSearchParams(new FormData(form));body.append('pageHistory','0,1,2,3');
+    // ช่องทาง: ระบุว่ามาจากฟอร์มบนเว็บ (ค่าต้องตรงกับตัวเลือกในคำถาม "ช่องทางที่พบแบบประเมินนี้" ของ Google Form)
+    body.append('entry.1169509254','เว็บไซต์ bcsm1989.com');
     send.disabled=true;send.textContent='กำลังส่ง…';
     fetch(ENDPOINT,{method:'POST',mode:'no-cors',body:body}).then(function(){
       form.hidden=true;document.getElementById('steps').hidden=true;var d=document.getElementById('done');d.hidden=false;d.focus();d.scrollIntoView({block:'center'});
