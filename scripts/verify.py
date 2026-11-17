@@ -2,6 +2,8 @@ from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import re
+LANGS=['th','en','zh','ja']
+ZHJA=re.compile(r'<span lang="(?:zh|ja)">.*?</span>',re.S)
 
 ROOT=Path(__file__).resolve().parents[1]
 DIST=ROOT/'dist'
@@ -22,7 +24,10 @@ errors=[];nrefs=0
 for path,doc in docs.items():
     if doc.h1!=1:errors.append(f'{path}: expected one h1')
     if len(set(doc.ids))!=len(doc.ids):errors.append(f'{path}: duplicate IDs')
-    if not {'th','en'}<=doc.langs:errors.append(f'{path}: language missing')
+    if not set(LANGS)<=doc.langs:errors.append(f'{path}: language missing')
+    raw=path.read_text()
+    counts={l:raw.count(f'<span lang="{l}">') for l in LANGS[1:]}
+    if len(set(counts.values()))!=1:errors.append(f'{path}: unequal en/zh/ja spans {counts}')
     for im in doc.images:
         if 'alt' not in im:errors.append(f'{path}: image missing alt')
     for kind,url in doc.refs:
@@ -37,6 +42,6 @@ for path,doc in docs.items():
 for slug in ['terms','privacy','delete-account']:
     original=(ROOT/'source-original'/f'{slug}.html').read_text()
     body=re.search(r'<main><div class="wrap">(.*?)</div></main>',original,re.S).group(1)
-    if body not in (DIST/slug/'index.html').read_text():errors.append(f'{slug}: source content changed')
+    if body not in ZHJA.sub('',(DIST/slug/'index.html').read_text()):errors.append(f'{slug}: source content changed')
 if errors:raise SystemExit('\n'.join(errors))
-print(f'PASS: {len(docs)} bilingual pages, {nrefs} references, all local paths and anchors, image alt text, unique IDs, single h1 per page; terms, privacy and deletion bodies unchanged.')
+print(f'PASS: {len(docs)} pages in Thai, English, Chinese and Japanese, {nrefs} references, all local paths and anchors, image alt text, unique IDs, single h1 per page; terms, privacy and deletion bodies unchanged.')

@@ -8,12 +8,19 @@ This project contains a complete buildless static website. The existing domain h
 
 - `dist/`: complete website, ready for a static web host.
 - `dist/style.css`: warm cream, sand, ochre, walnut and olive design system, responsive layouts.
-- `dist/app.js`: Thai / English preference, mobile navigation, filtered gallery and accessible native image dialog.
-- `scripts/build.py`: generates eight bilingual pages from shared components.
+- `dist/app.js`: language menu (Thai / English / Chinese / Japanese), mobile navigation, filtered gallery and accessible native image dialog.
+- `scripts/build.py`: generates the pages from shared components in Thai and English (`t(th, en)`), refreshes the header/footer of the hand-maintained `dist/fleet/` pages, then adds Chinese and Japanese.
+- `scripts/i18n.py` + `scripts/translations.json`: Simplified Chinese and Japanese text, keyed by the English string. A new English string without a translation stops the build with a list of what is missing.
 - `source-original/`: public HTML captured from bcsm1989.com for content comparison; not part of the deployed public directory.
 - `scripts/verify.py`: validates pages, local references and preserved policy text.
 
 Run `python scripts/build.py`, `python scripts/verify.py` and `node --check dist/app.js` after editing. There are no JavaScript package dependencies or build tools to install.
+
+## Languages
+
+Thai (default), English, Simplified Chinese and Japanese. Every text is written in the HTML as `<span lang="th|en|zh|ja">`; CSS shows the active one. The visitor chooses from the globe menu in the header; the choice is remembered. A browser set to Chinese or Japanese opens in that language on the first visit. Links can force a language with `?lang=th|en|zh|ja`.
+
+To edit wording: Thai/English in `scripts/build.py` (or `dist/fleet/index.html`), Chinese/Japanese in `scripts/translations.json`, then run the build. The terms and privacy notice stay Thai-only (legally binding); English, Chinese and Japanese readers see a note saying so. Fleet form answers are still sent to Google Forms with the Thai choice values, so the scoring sheet is unaffected.
 
 ## Pages
 

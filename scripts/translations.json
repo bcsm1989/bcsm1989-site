@@ -1,0 +1,1305 @@
+{
+ "_note": "Chinese (Simplified) and Japanese for bcsm1989.com, keyed by the English text in scripts/build.py and dist/fleet/. Edit here, then run scripts/build.py.",
+ "strings": {
+  "Skip to content": {
+   "zh": "跳至正文",
+   "ja": "本文へスキップ"
+  },
+  "Shell Khlong Rang · Route 304 · Prachin Buri": {
+   "zh": "Shell Khlong Rang · 304号公路 · 巴真武里府",
+   "ja": "Shell Khlong Rang · 国道304号線 · プラーチーンブリー県"
+  },
+  "Support 08:00–20:00": {
+   "zh": "客服 08:00–20:00",
+   "ja": "サポート 08:00–20:00"
+  },
+  "Home": {
+   "zh": "首页",
+   "ja": "ホーム"
+  },
+  "Our company": {
+   "zh": "公司简介",
+   "ja": "会社概要"
+  },
+  "EV project": {
+   "zh": "充电站项目",
+   "ja": "EV充電計画"
+  },
+  "At the station": {
+   "zh": "站内设施",
+   "ja": "施設・サービス"
+  },
+  "Find us": {
+   "zh": "交通位置",
+   "ja": "アクセス"
+  },
+  "Contact & support": {
+   "zh": "联系与支持",
+   "ja": "お問い合わせ・サポート"
+  },
+  "Contact us": {
+   "zh": "联系我们",
+   "ja": "お問い合わせ"
+  },
+  "Route 304 · Si Maha Phot": {
+   "zh": "304号公路 · 西玛哈坡县",
+   "ja": "国道304号線 · シーマハーポート郡"
+  },
+  "EV charging at<br>Khlong Rang": {
+   "zh": "Khlong Rang<br>电动车充电站",
+   "ja": "Khlong Rangの<br>EV充電ステーション"
+  },
+  "The BCSM 1989 charging project at Shell Khlong Rang in Prachin Buri, alongside the café and vehicle services.": {
+   "zh": "BCSM 1989 充电站项目位于巴真武里府 Shell Khlong Rang 加油站内，与咖啡馆及汽车服务设施相邻。",
+   "ja": "プラーチーンブリー県のShell Khlong Rang内で進めるBCSM 1989の充電ステーション計画です。カフェや車両サービスと同じ敷地にあります。"
+  },
+  "In development · Charging not yet open": {
+   "zh": "建设中 · 充电服务尚未开放",
+   "ja": "開発中 · 充電サービスは未開始"
+  },
+  "Directions to Shell": {
+   "zh": "导航至 Shell 加油站",
+   "ja": "Shellまでのルート"
+  },
+  "Explore the project": {
+   "zh": "了解项目",
+   "ja": "計画を見る"
+  },
+  "Project rendering": {
+   "zh": "项目效果图",
+   "ja": "計画イメージ"
+  },
+  "Concept dated 28 Sep 2026 · Subject to final construction design": {
+   "zh": "概念设计日期 2026年9月28日 · 以最终施工设计为准",
+   "ja": "基本構想 2026年9月28日付 · 最終的な施工設計により変更される場合があります"
+  },
+  "Know the project company": {
+   "zh": "了解项目开发公司",
+   "ja": "事業会社について"
+  },
+  "Company information & contacts": {
+   "zh": "公司信息与联系方式",
+   "ja": "会社情報・連絡先"
+  },
+  "A place you can find": {
+   "zh": "位置清晰，方便到达",
+   "ja": "確かな場所にあります"
+  },
+  "Shell Khlong Rang on Google Maps": {
+   "zh": "在 Google 地图上查看 Shell Khlong Rang",
+   "ja": "Google マップで見る Shell Khlong Rang"
+  },
+  "Speak directly with our team": {
+   "zh": "直接与团队沟通",
+   "ja": "スタッフに直接ご相談ください"
+  },
+  "Daily support, 08:00–20:00": {
+   "zh": "每日客服 08:00–20:00",
+   "ja": "サポート 毎日 08:00–20:00"
+  },
+  "Actual location · Shell Khlong Rang": {
+   "zh": "实景照片 · Shell Khlong Rang",
+   "ja": "実際の現地写真 · Shell Khlong Rang"
+  },
+  "A familiar place.<br>A new chapter in energy.": {
+   "zh": "熟悉的地方，<br>能源的新篇章。",
+   "ja": "なじみのある場所で、<br>エネルギーの新しい章を。"
+  },
+  "BCSM 1989 is developing its EV charging project within Shell Khlong Rang, near the 304 industrial area in Prachin Buri, alongside the station’s café, shops and vehicle services.": {
+   "zh": "BCSM 1989 正在巴真武里府 304 工业园区附近的 Shell Khlong Rang 加油站内建设电动车充电项目，与站内咖啡馆、商店及汽车服务设施相邻。",
+   "ja": "BCSM 1989は、プラーチーンブリー県の304工業団地に近いShell Khlong Rang内でEV充電計画を進めています。敷地内にはカフェ、ショップ、車両サービスがあります。"
+  },
+  "Project company": {
+   "zh": "项目开发公司",
+   "ja": "事業会社"
+  },
+  "BCSM 1989 Co., Ltd.": {
+   "zh": "BCSM 1989 Co., Ltd.",
+   "ja": "BCSM 1989 Co., Ltd."
+  },
+  "Tax ID": {
+   "zh": "纳税人识别号",
+   "ja": "納税者番号"
+  },
+  "A good place to pause.": {
+   "zh": "歇歇脚，再出发。",
+   "ja": "ひと息つくのにちょうどいい場所。"
+  },
+  "Explore the station": {
+   "zh": "探索站内设施",
+   "ja": "施設を見る"
+  },
+  "Coffee at The Brewtanist and Otteri wash & dry in the station area. A little everyday comfort along your route.": {
+   "zh": "站内有 The Brewtanist 咖啡和 Otteri 自助洗衣烘干，为您的旅途增添一份日常的舒适。",
+   "ja": "敷地内にThe BrewtanistのコーヒーとOtteriのコインランドリー（洗濯・乾燥）があります。移動の合間にほっとできる場所です。"
+  },
+  "Café & everyday services": {
+   "zh": "咖啡与生活服务",
+   "ja": "カフェと日常のサービス"
+  },
+  "A little care for your car.": {
+   "zh": "给爱车一点呵护。",
+   "ja": "愛車にもひと手間を。"
+  },
+  "A dedicated car wash area for a fresher start to your next journey.": {
+   "zh": "专属洗车区，让您焕然一新地踏上下一段旅程。",
+   "ja": "専用の洗車エリアで、すっきりと次の行程へ。"
+  },
+  "See car care": {
+   "zh": "查看汽车护理",
+   "ja": "洗車サービスを見る"
+  },
+  "Oil change service within the station. Contact the service team for details.": {
+   "zh": "站内提供机油更换服务，详情请咨询服务人员。",
+   "ja": "敷地内でオイル交換を行っています。詳しくはサービススタッフにお問い合わせください。"
+  },
+  "Explore vehicle services": {
+   "zh": "查看汽车服务",
+   "ja": "車両サービスを見る"
+  },
+  "Opening hours and conditions vary by service. Please check before your visit.": {
+   "zh": "各项服务的营业时间与条件不同，请在前往前确认。",
+   "ja": "営業時間や条件はサービスごとに異なります。ご来店前にご確認ください。"
+  },
+  "See you at<br>Khlong Rang.": {
+   "zh": "我们在<br>Khlong Rang 等您。",
+   "ja": "Khlong Rangで<br>お待ちしています。"
+  },
+  "Look for the Shell station on Route 304,<br>Si Maha Phot, Prachin Buri.": {
+   "zh": "请在巴真武里府西玛哈坡县<br>304号公路上寻找 Shell 加油站。",
+   "ja": "プラーチーンブリー県シーマハーポート郡、<br>国道304号線沿いのShellが目印です。"
+  },
+  "78 Moo 4, Krok Sombun, Si Maha Phot,<br>Prachin Buri 25140, Thailand": {
+   "zh": "78 Moo 4, Krok Sombun, Si Maha Phot,<br>Prachin Buri 25140, Thailand",
+   "ja": "78 Moo 4, Krok Sombun, Si Maha Phot,<br>Prachin Buri 25140, Thailand"
+  },
+  "Directions to the station": {
+   "zh": "导航至充电站",
+   "ja": "充電ステーションへのルート"
+  },
+  "For directions or station enquiries: 082-595-1989": {
+   "zh": "路线或站点咨询：082-595-1989",
+   "ja": "ルート・施設に関するお問い合わせ：082-595-1989"
+  },
+  "Know before<br>you charge.": {
+   "zh": "充电前，<br>先了解清楚。",
+   "ja": "充電の前に、<br>知っておきたいこと。"
+  },
+  "We distinguish the future charging project from the existing station and its photographs, so you can plan around actual service readiness.": {
+   "zh": "我们将未来的充电项目与现有加油站及其实景照片区分开来，方便您根据实际服务情况规划行程。",
+   "ja": "今後の充電計画と、現在営業中の施設やその写真とを分けてご案内しています。実際のサービス状況に合わせて計画を立てられます。"
+  },
+  "Contact & more information": {
+   "zh": "联系我们 / 更多信息",
+   "ja": "お問い合わせ・詳しい情報"
+  },
+  "Is EV charging available now?": {
+   "zh": "现在可以充电了吗？",
+   "ja": "現在、充電できますか？"
+  },
+  "The BCSM 1989 charging project is in development. An opening date has not been announced. Charging station images are concept renderings. Please contact the team for project updates.": {
+   "zh": "BCSM 1989 充电项目仍在建设中，尚未公布开放日期。网站上的充电站图片为概念效果图。如需了解项目进展，请联系我们的团队。",
+   "ja": "BCSM 1989の充電計画は開発中で、開業日は未定です。充電ステーションの画像は構想段階のイメージです。進捗はスタッフまでお問い合わせください。"
+  },
+  "What are the tariffs and charging power?": {
+   "zh": "充电价格和功率是多少？",
+   "ja": "料金と充電出力は？"
+  },
+  "Tariffs, charger power and activation instructions will be announced once confirmed. Call <a href=\"tel:0825951989\">082-595-1989</a> for the latest information.": {
+   "zh": "充电价格、充电桩功率及启动方式将在确认后公布。如需最新信息，请致电 <a href=\"tel:0825951989\">082-595-1989</a>。",
+   "ja": "料金、充電器の出力、充電開始方法は確定後にお知らせします。最新情報は <a href=\"tel:0825951989\">082-595-1989</a> までお電話ください。"
+  },
+  "Who can transport and fleet operators contact?": {
+   "zh": "运输企业和车队应如何联系？",
+   "ja": "運送会社・フリート事業者の窓口は？"
+  },
+  "The concept considers electric trucks alongside passenger vehicles. Email <a href=\"mailto:support@bcsm1989.com?subject=Fleet%20charging%20enquiry\">support@bcsm1989.com</a> with vehicle models, dimensions and intended usage to discuss suitability before planning access.": {
+   "zh": "本项目在设计时同时考虑了电动卡车与乘用车。请发送邮件至 <a href=\"mailto:support@bcsm1989.com?subject=Fleet%20charging%20enquiry\">support@bcsm1989.com</a>，并注明车型、车辆尺寸及使用方式，以便在安排进场前评估是否合适。",
+   "ja": "本計画は乗用車に加えて電動トラックも想定しています。車種、車両サイズ、利用方法を記載のうえ <a href=\"mailto:support@bcsm1989.com?subject=Fleet%20charging%20enquiry\">support@bcsm1989.com</a> までメールでご連絡ください。ご来場の前に適合性を確認いたします。"
+  },
+  "Where is the station and what is nearby?": {
+   "zh": "充电站在哪里？附近有什么？",
+   "ja": "場所と周辺施設は？"
+  },
+  "The project is at Shell Khlong Rang on Route 304, Si Maha Phot, Prachin Buri. The area includes The Brewtanist, Otteri WASH & DRY, car wash services and Shell Helix Oilchange+. See <a href=\"/location/\">directions</a> and check individual service hours before visiting.": {
+   "zh": "项目位于巴真武里府西玛哈坡县304号公路旁的 Shell Khlong Rang 加油站。站内有 The Brewtanist、Otteri WASH & DRY、洗车服务以及 Shell Helix Oilchange+。请查看<a href=\"/location/\">交通位置</a>，并在前往前确认各项服务的营业时间。",
+   "ja": "プラーチーンブリー県シーマハーポート郡、国道304号線沿いのShell Khlong Rangにあります。敷地内にはThe Brewtanist、Otteri WASH & DRY、洗車サービス、Shell Helix Oilchange+があります。<a href=\"/location/\">アクセス</a>をご覧のうえ、各サービスの営業時間をご確認ください。"
+  },
+  "Talk to us before your next trip.": {
+   "zh": "出发前，先和我们聊聊。",
+   "ja": "お出かけ前にご相談ください。"
+  },
+  "Ask about the project, directions or future fleet charging.": {
+   "zh": "欢迎咨询项目进展、交通路线或未来的车队充电服务。",
+   "ja": "計画の進捗、アクセス、今後のフリート向け充電についてお気軽にどうぞ。"
+  },
+  "Support daily, 08:00–20:00 (GMT+7).": {
+   "zh": "每日客服 08:00–20:00（GMT+7）。",
+   "ja": "サポート 毎日 08:00–20:00（GMT+7）。"
+  },
+  "082-595-1989": {
+   "zh": "082-595-1989",
+   "ja": "082-595-1989"
+  },
+  "<strong>EVerFlo</strong> EV Charging<br>operated by BCSM 1989 Co., Ltd.<br>Energy and everyday stops in the 304 area.<br>Si Maha Phot, Prachin Buri.": {
+   "zh": "<strong>EVerFlo</strong> 电动车充电<br>由 BCSM 1989 Co., Ltd. 运营<br>304 工业园区一带的能源与日常补给站<br>巴真武里府西玛哈坡县",
+   "ja": "<strong>EVerFlo</strong> EV充電<br>運営：BCSM 1989 Co., Ltd.<br>304工業団地エリアのエネルギーと日常の立ち寄り拠点<br>プラーチーンブリー県シーマハーポート郡"
+  },
+  "Visit us": {
+   "zh": "到访指南",
+   "ja": "ご来場案内"
+  },
+  "EV charging": {
+   "zh": "电动车充电",
+   "ja": "EV充電"
+  },
+  "Around the station": {
+   "zh": "站内设施与服务",
+   "ja": "施設とサービス"
+  },
+  "Location & directions": {
+   "zh": "位置与交通",
+   "ja": "所在地・アクセス"
+  },
+  "Information & help": {
+   "zh": "信息与帮助",
+   "ja": "インフォメーション"
+  },
+  "Company information": {
+   "zh": "公司信息",
+   "ja": "会社情報"
+  },
+  "Support centre": {
+   "zh": "客户支持中心",
+   "ja": "サポートセンター"
+  },
+  "Terms of service": {
+   "zh": "服务条款",
+   "ja": "利用規約"
+  },
+  "Privacy notice": {
+   "zh": "隐私声明",
+   "ja": "プライバシーポリシー"
+  },
+  "Delete account & data": {
+   "zh": "删除账户与数据",
+   "ja": "アカウントとデータの削除"
+  },
+  "78 Moo 4, Krok Sombun, Si Maha Phot, Prachin Buri 25140": {
+   "zh": "78 Moo 4, Krok Sombun, Si Maha Phot, Prachin Buri 25140",
+   "ja": "78 Moo 4, Krok Sombun, Si Maha Phot, Prachin Buri 25140"
+  },
+  "Get directions": {
+   "zh": "导航",
+   "ja": "ルート案内"
+  },
+  "Call the team": {
+   "zh": "致电团队",
+   "ja": "電話で問い合わせ"
+  },
+  "The company behind the EV charging project at Shell Khlong Rang, Si Maha Phot, Prachin Buri.": {
+   "zh": "巴真武里府西玛哈坡县 Shell Khlong Rang 电动车充电项目的开发公司。",
+   "ja": "プラーチーンブリー県シーマハーポート郡、Shell Khlong RangのEV充電計画を手がける会社です。"
+  },
+  "Actual location · BCSM 1989 project site": {
+   "zh": "实景照片 · BCSM 1989 项目所在地",
+   "ja": "実際の現地写真 · BCSM 1989 計画地"
+  },
+  "Company details<br>and contact information.": {
+   "zh": "公司信息<br>与联系方式。",
+   "ja": "会社情報<br>と連絡先。"
+  },
+  "Company name": {
+   "zh": "公司名称",
+   "ja": "会社名"
+  },
+  "Tax identification number": {
+   "zh": "纳税人识别号",
+   "ja": "納税者番号"
+  },
+  "Contact address": {
+   "zh": "联系地址",
+   "ja": "所在地"
+  },
+  "Telephone": {
+   "zh": "电话",
+   "ja": "電話番号"
+  },
+  "Email": {
+   "zh": "电子邮箱",
+   "ja": "メール"
+  },
+  "Support hours": {
+   "zh": "客服时间",
+   "ja": "サポート受付時間"
+  },
+  "Daily 08:00–20:00 (GMT+7)": {
+   "zh": "每日 08:00–20:00（GMT+7）",
+   "ja": "毎日 08:00–20:00（GMT+7）"
+  },
+  "Hours shown are for the support team, not charging station opening hours.": {
+   "zh": "以上为客服团队的服务时间，并非充电站营业时间。",
+   "ja": "記載の時間はサポート窓口の受付時間で、充電ステーションの営業時間ではありません。"
+  },
+  "A new purpose<br>for a familiar stop.": {
+   "zh": "熟悉的站点，<br>新的使命。",
+   "ja": "なじみの場所に、<br>新しい役割を。"
+  },
+  "The project brings the idea of EV charging to an established station setting, considering both passenger vehicle users and electric transport operators.": {
+   "zh": "本项目将电动车充电引入一个成熟的加油站环境，同时兼顾乘用车用户与电动运输企业的需求。",
+   "ja": "既存のサービスステーションにEV充電を取り入れる計画です。乗用車のお客様と電動車両を使う運送事業者の両方を想定しています。"
+  },
+  "Project status: in development": {
+   "zh": "项目状态：建设中",
+   "ja": "計画の状況：開発中"
+  },
+  "Charging opening dates, tariffs and operating details have not yet been announced. Please contact our team before planning a charging stop.": {
+   "zh": "充电服务的开放日期、价格及运营细节尚未公布。计划前来充电前，请先联系我们的团队。",
+   "ja": "充電サービスの開始日、料金、運営の詳細は未発表です。充電でのご来場を計画される前に、スタッフまでお問い合わせください。"
+  },
+  "Contact the team": {
+   "zh": "联系团队",
+   "ja": "スタッフに問い合わせる"
+  },
+  "Charging station concept": {
+   "zh": "充电站概念",
+   "ja": "充電ステーション構想"
+  },
+  "Explore the architectural concept and development information, with the current project status clearly shown.": {
+   "zh": "查看建筑概念与开发信息，并清楚了解项目当前状态。",
+   "ja": "建築コンセプトと開発情報を、現在の計画状況とあわせてご覧いただけます。"
+  },
+  "Station surroundings": {
+   "zh": "站点周边",
+   "ja": "周辺の施設"
+  },
+  "Explore the café, laundry, car wash and oil change centre in the station area.": {
+   "zh": "了解站内的咖啡馆、洗衣店、洗车及机油更换中心。",
+   "ja": "敷地内のカフェ、ランドリー、洗車、オイル交換センターをご紹介します。"
+  },
+  "View station photographs": {
+   "zh": "查看实景照片",
+   "ja": "現地写真を見る"
+  },
+  "Discuss your requirements": {
+   "zh": "沟通您的需求",
+   "ja": "ご要望をお聞かせください"
+  },
+  "Ask about project progress or discuss future charging needs for personal vehicles and fleets.": {
+   "zh": "咨询项目进展，或洽谈私家车及车队未来的充电需求。",
+   "ja": "計画の進捗についてのお問い合わせや、自家用車・フリートの今後の充電ニーズについてご相談ください。"
+  },
+  "Information for customers.": {
+   "zh": "用户须知",
+   "ja": "ご利用者向け情報"
+  },
+  "Account & data deletion": {
+   "zh": "账户与数据删除",
+   "ja": "アカウント・データの削除"
+  },
+  "Charging, tax invoices & refunds": {
+   "zh": "充电、税务发票与退款",
+   "ja": "充電・税務インボイス・返金"
+  },
+  "Daytime visualisation of the planned station": {
+   "zh": "规划中充电站的白天效果图",
+   "ja": "計画中の充電ステーション（昼）のイメージ"
+  },
+  "Evening visualisation of the planned station": {
+   "zh": "规划中充电站的傍晚效果图",
+   "ja": "計画中の充電ステーション（夕方）のイメージ"
+  },
+  "Energy for the road ahead.": {
+   "zh": "为前方旅途注入能量。",
+   "ja": "この先の道のりにエネルギーを。"
+  },
+  "Explore the station project in development and information for future visits.": {
+   "zh": "了解正在建设中的充电站项目，以及未来到访的相关信息。",
+   "ja": "開発中の充電ステーション計画と、今後ご来場いただく際の情報をご覧ください。"
+  },
+  "A new space.<br>A new kind of energy.": {
+   "zh": "新的空间，<br>新的能源。",
+   "ja": "新しい空間に、<br>新しいエネルギーを。"
+  },
+  "An architectural concept for the charging station in development, with warm materials, an open canopy and connections to the surrounding services.": {
+   "zh": "正在建设中的充电站建筑概念：温暖的材质、通透的顶棚，以及与周边服务相连的停车区。",
+   "ja": "開発中の充電ステーションの建築コンセプト。温かみのある素材、開放的な屋根、周辺サービスとつながる駐車スペースが特徴です。"
+  },
+  "Daytime": {
+   "zh": "白天",
+   "ja": "昼"
+  },
+  "Evening": {
+   "zh": "傍晚",
+   "ja": "夕方"
+  },
+  "PROJECT VISUALISATION": {
+   "zh": "项目效果图",
+   "ja": "計画イメージ"
+  },
+  "Project visualisation · Preliminary concept, 28 Sep 2026 · © Mind Architects co., ltd. 2026": {
+   "zh": "项目效果图 · 初步概念设计，2026年9月28日 · © Mind Architects co., ltd. 2026",
+   "ja": "計画イメージ · 基本構想 2026年9月28日 · © Mind Architects co., ltd. 2026"
+  },
+  "The project is in development. These are architectural visualisations, not photographs of an operating charging station. Details may change in the final construction design.": {
+   "zh": "项目仍在建设中。以上为建筑效果图，并非已运营充电站的照片，细节可能随最终施工设计而调整。",
+   "ja": "本計画は開発中です。これらは建築イメージであり、稼働中の充電ステーションの写真ではありません。詳細は最終的な施工設計により変更される場合があります。"
+  },
+  "Thinking ahead<br>to electric transport.": {
+   "zh": "着眼于<br>电动运输的未来。",
+   "ja": "電動輸送の<br>その先を見据えて。"
+  },
+  "The concept considers electric trucks alongside passenger vehicles. Transport operators can contact our team about the service plan and project progress.": {
+   "zh": "本概念同时考虑电动卡车与乘用车。运输企业可就服务方案与项目进展联系我们的团队。",
+   "ja": "本構想は乗用車に加えて電動トラックも想定しています。運送事業者の方は、サービス内容や計画の進捗についてスタッフまでお問い合わせください。"
+  },
+  "Fleet needs assessment": {
+   "zh": "车队需求评估",
+   "ja": "フリート利用ニーズ調査"
+  },
+  "Enquire about fleet charging": {
+   "zh": "咨询车队充电",
+   "ja": "フリート充電のお問い合わせ"
+  },
+  "Planned charging services.": {
+   "zh": "规划中的充电服务。",
+   "ja": "予定している充電サービス"
+  },
+  "Planned system": {
+   "zh": "规划系统",
+   "ja": "予定システム"
+  },
+  "Connector": {
+   "zh": "充电接口",
+   "ja": "コネクター"
+  },
+  "Payment": {
+   "zh": "付款方式",
+   "ja": "お支払い"
+  },
+  "In-app payment": {
+   "zh": "应用内支付",
+   "ja": "アプリ内決済"
+  },
+  "Tax invoices": {
+   "zh": "税务发票",
+   "ja": "税務インボイス"
+  },
+  "Available through our support team": {
+   "zh": "可通过客服团队申请",
+   "ja": "サポート窓口で発行いたします"
+  },
+  "This section describes the intended future service. Confirm the opening date, connector specifications, tariffs and app with the team before visiting.": {
+   "zh": "本部分介绍的是计划中的未来服务。前往前请向团队确认开放日期、充电接口规格、价格及所用应用。",
+   "ja": "ここでは今後予定しているサービスをご紹介しています。ご来場前に、開業日、コネクター仕様、料金、使用するアプリをスタッフにご確認ください。"
+  },
+  "Contact the station": {
+   "zh": "联系充电站",
+   "ja": "施設に問い合わせる"
+  },
+  "Preparing for a future charge.": {
+   "zh": "为未来充电做好准备。",
+   "ja": "今後の充電に向けた準備"
+  },
+  "Get ready in the app": {
+   "zh": "在应用中做好准备",
+   "ja": "アプリで準備する"
+  },
+  "Download the app, create your account, and add a payment method or top up your wallet.": {
+   "zh": "下载应用、注册账户，并添加付款方式或为钱包充值。",
+   "ja": "アプリをダウンロードしてアカウントを作成し、支払い方法を登録するかウォレットにチャージします。"
+  },
+  "Connect your vehicle": {
+   "zh": "连接车辆",
+   "ja": "車両に接続する"
+  },
+  "Plug the CCS2 connector firmly into your vehicle.": {
+   "zh": "将 CCS2 充电枪牢固插入车辆。",
+   "ja": "CCS2コネクターを車両にしっかり差し込みます。"
+  },
+  "Start charging": {
+   "zh": "开始充电",
+   "ja": "充電を開始する"
+  },
+  "Scan the charger QR code, or choose the connector in the app, then start charging.": {
+   "zh": "扫描充电桩上的二维码，或在应用中选择充电枪，然后开始充电。",
+   "ja": "充電器のQRコードを読み取るか、アプリでコネクターを選び、充電を開始します。"
+  },
+  "Finish your session": {
+   "zh": "结束充电",
+   "ja": "充電を終了する"
+  },
+  "Stop from the app or vehicle, return the connector, and move your vehicle out of the charging bay.": {
+   "zh": "通过应用或车辆停止充电，归还充电枪，并将车辆驶离充电车位。",
+   "ja": "アプリまたは車両から充電を停止し、コネクターを戻して充電スペースから車を移動します。"
+  },
+  "An introductory guide for use after opening. Follow the actual charger and station app instructions when the service becomes available.": {
+   "zh": "以上为开放后使用的入门指引。服务开放后，请以充电桩和充电站应用中的实际说明为准。",
+   "ja": "開業後に向けた簡単なご案内です。サービス開始後は、充電器と施設アプリの実際の案内に従ってください。"
+  },
+  "Make the stop yours.": {
+   "zh": "随心安排您的停留。",
+   "ja": "思い思いの休憩を。"
+  },
+  "Café, shops and vehicle services share the station area. Explore the real surroundings before you arrive.": {
+   "zh": "咖啡馆、商店和汽车服务都在站内。前往前先看看实际环境吧。",
+   "ja": "カフェ、ショップ、車両サービスが同じ敷地にあります。ご来場前に現地の様子をご覧ください。"
+  },
+  "Explore the surroundings": {
+   "zh": "查看周边环境",
+   "ja": "周辺の様子を見る"
+  },
+  "Charging FAQ": {
+   "zh": "充电常见问题",
+   "ja": "充電に関するよくある質問"
+  },
+  "The station": {
+   "zh": "加油站",
+   "ja": "ステーション"
+  },
+  "Car wash area": {
+   "zh": "洗车区",
+   "ja": "洗車エリア"
+  },
+  "Shell Helix Oilchange+": {
+   "zh": "Shell Helix Oilchange+",
+   "ja": "Shell Helix Oilchange+"
+  },
+  "A familiar landmark": {
+   "zh": "熟悉的地标",
+   "ja": "おなじみの目印"
+  },
+  "A wider view": {
+   "zh": "更广的视角",
+   "ja": "ワイドビュー"
+  },
+  "Service area & greenery": {
+   "zh": "服务区与绿植",
+   "ja": "サービスエリアと緑"
+  },
+  "Service building frontage": {
+   "zh": "服务楼正面",
+   "ja": "サービス棟の正面"
+  },
+  "A place to pause.": {
+   "zh": "歇脚的好地方。",
+   "ja": "ひと休みできる場所。"
+  },
+  "Explore the real station surroundings, from the forecourt and café to vehicle services.": {
+   "zh": "了解加油站的真实环境，从前场、咖啡馆到汽车服务。",
+   "ja": "フォアコートやカフェから車両サービスまで、ステーションの実際の様子をご紹介します。"
+  },
+  "Original photographs of the station": {
+   "zh": "站内实景照片",
+   "ja": "ステーションの実際の写真"
+  },
+  "A fresh pause<br>in your everyday.": {
+   "zh": "在日常中，<br>来一次清新的小憩。",
+   "ja": "毎日の中に、<br>さわやかなひと休みを。"
+  },
+  "Visit The Brewtanist for coffee and a moment to relax. Otteri WASH & DRY is also in the station area, making everyday errands part of your stop.": {
+   "zh": "到 The Brewtanist 喝杯咖啡、放松片刻。站内还有 Otteri WASH & DRY，顺路就能把日常琐事办好。",
+   "ja": "The Brewtanistでコーヒーとくつろぎの時間を。敷地内にはOtteri WASH & DRYもあり、立ち寄りついでに日常の用事も済ませられます。"
+  },
+  "This photograph shows the café building and surrounding shopfronts.": {
+   "zh": "此照片展示咖啡馆建筑及周边店铺。",
+   "ja": "この写真はカフェの建物と周囲の店舗を写したものです。"
+  },
+  "Ready for the next journey.": {
+   "zh": "为下一段旅程做好准备。",
+   "ja": "次の行程への準備を。"
+  },
+  "The station area includes car wash services and Shell Helix Oilchange+. Please check service hours and availability before your visit.": {
+   "zh": "站内设有洗车服务和 Shell Helix Oilchange+。前往前请确认服务时间与排队情况。",
+   "ja": "敷地内には洗車サービスとShell Helix Oilchange+があります。ご来店前に営業時間と空き状況をご確認ください。"
+  },
+  "A look around.": {
+   "zh": "四处看看。",
+   "ja": "施設をひと巡り"
+  },
+  "Choose a category and select any photograph for a closer look.": {
+   "zh": "选择类别，点击任意照片查看大图。",
+   "ja": "カテゴリーを選び、写真を選ぶと拡大表示します。"
+  },
+  "All photos": {
+   "zh": "全部照片",
+   "ja": "すべての写真"
+  },
+  "Station": {
+   "zh": "加油站",
+   "ja": "ステーション"
+  },
+  "Café & shops": {
+   "zh": "咖啡与商店",
+   "ja": "カフェ・ショップ"
+  },
+  "Car care": {
+   "zh": "汽车护理",
+   "ja": "カーケア"
+  },
+  "Station forecourt and Shell canopy": {
+   "zh": "加油站前场与 Shell 顶棚",
+   "ja": "フォアコートとShellのキャノピー"
+  },
+  "Shops and a place to pause": {
+   "zh": "商店与休憩空间",
+   "ja": "ショップと休憩スペース"
+  },
+  "Car care within the station": {
+   "zh": "站内汽车护理",
+   "ja": "敷地内のカーケア"
+  },
+  "Oil change service centre": {
+   "zh": "机油更换服务中心",
+   "ja": "オイル交換サービスセンター"
+  },
+  "Shell signage at the station": {
+   "zh": "站内 Shell 标识",
+   "ja": "ステーションのShell看板"
+  },
+  "Panoramic view of the forecourt": {
+   "zh": "前场全景",
+   "ja": "フォアコートのパノラマ"
+  },
+  "A broader view of the car care area": {
+   "zh": "汽车护理区全景",
+   "ja": "カーケアエリアの広角写真"
+  },
+  "View from the forecourt": {
+   "zh": "从前场看过去",
+   "ja": "フォアコートからの眺め"
+  },
+  "Your stop at Khlong Rang.": {
+   "zh": "Khlong Rang，您的途中驿站。",
+   "ja": "Khlong Rangでの立ち寄りに。"
+  },
+  "Shell station on Route 304, Si Maha Phot, Prachin Buri.": {
+   "zh": "位于巴真武里府西玛哈坡县304号公路旁的 Shell 加油站。",
+   "ja": "プラーチーンブリー県シーマハーポート郡、国道304号線沿いのShellです。"
+  },
+  "Shell Khlong Rang": {
+   "zh": "Shell Khlong Rang",
+   "ja": "Shell Khlong Rang"
+  },
+  "ON YOUR EVERYDAY ROUTE": {
+   "zh": "就在您的日常路线上",
+   "ja": "いつものルート沿いに"
+  },
+  "Opens the station’s own Google Maps place link.": {
+   "zh": "打开充电站官方的 Google 地图地点链接。",
+   "ja": "施設のGoogle マップ地点リンクを開きます。"
+  },
+  "Plan a smoother stop.": {
+   "zh": "让歇脚更顺畅。",
+   "ja": "スムーズな立ち寄りのために"
+  },
+  "Look for the Shell signs and service buildings when you arrive. Contact our team for entrance information, parking or charging availability before travelling.": {
+   "zh": "到达时请寻找 Shell 标识和服务楼。如需了解入口、停车或充电情况，请在出发前联系我们的团队。",
+   "ja": "到着したらShellの看板とサービス棟を目印にしてください。入口、駐車、充電の空き状況については、お出かけ前にスタッフへお問い合わせください。"
+  },
+  "Phone": {
+   "zh": "电话",
+   "ja": "電話"
+  },
+  "These are support centre hours. Please check charging and individual shop opening hours separately.": {
+   "zh": "以上为客服中心时间。充电服务及各店铺营业时间请另行确认。",
+   "ja": "上記はサポートセンターの受付時間です。充電サービスや各店舗の営業時間は個別にご確認ください。"
+  },
+  "Your route to the station.": {
+   "zh": "前往充电站的路线。",
+   "ja": "充電ステーションへのルート"
+  },
+  "This is the station’s Google Maps place. If the map does not load, use the directions button to open it in Maps.": {
+   "zh": "这是充电站在 Google 地图上的地点。如地图无法加载，请点击导航按钮在地图应用中打开。",
+   "ja": "こちらはGoogle マップ上の施設の地点です。地図が表示されない場合は、ルート案内ボタンからマップアプリで開いてください。"
+  },
+  "Here when you need us.": {
+   "zh": "随时为您服务。",
+   "ja": "いつでもお手伝いします。"
+  },
+  "Contact us about the project, directions and future services, or find account and payment information.": {
+   "zh": "可咨询项目、交通路线及未来服务，或查看账户与付款相关信息。",
+   "ja": "計画、アクセス、今後のサービスについてのお問い合わせや、アカウント・お支払いに関する情報はこちら。"
+  },
+  "Contact support": {
+   "zh": "联系客服",
+   "ja": "サポートへの連絡"
+  },
+  "Have your transaction number, date, time and a description of the issue ready to help our team investigate.": {
+   "zh": "请准备好交易编号、日期、时间及问题描述，以便团队尽快核查。",
+   "ja": "スムーズに確認できるよう、取引番号、日時、問題の内容をご用意ください。"
+  },
+  "Before planning your visit": {
+   "zh": "出发前须知",
+   "ja": "ご来場前に"
+  },
+  "Charging guide for after opening": {
+   "zh": "开放后的充电指南",
+   "ja": "開業後の充電方法"
+  },
+  "Frequently asked questions": {
+   "zh": "常见问题",
+   "ja": "よくある質問"
+  },
+  "How do I get a full tax invoice?": {
+   "zh": "如何开具正式税务发票？",
+   "ja": "正式な税務インボイスはどうすれば受け取れますか？"
+  },
+  "Email support@bcsm1989.com within the same month, with the charging transaction number and the buyer’s name, address and tax ID (and branch, if any).": {
+   "zh": "请在充电当月内发送邮件至 support@bcsm1989.com，注明充电交易编号以及购买方的名称、地址和纳税人识别号（如有分支机构，请一并注明）。",
+   "ja": "充電した月のうちに support@bcsm1989.com までメールで、充電の取引番号と、購入者の名称・住所・納税者番号（支店がある場合は支店も）をお送りください。"
+  },
+  "I was charged but the session failed": {
+   "zh": "已扣费但充电失败",
+   "ja": "料金が引き落とされたのに充電できなかった"
+  },
+  "Send us the transaction number and time. We will review it and refund to your wallet or original payment method within 7 business days.": {
+   "zh": "请将交易编号和时间发给我们。我们将在 7 个工作日内核查，并退款至您的钱包或原付款方式。",
+   "ja": "取引番号と日時をお知らせください。確認のうえ、7営業日以内にウォレットまたは元のお支払い方法へ返金いたします。"
+  },
+  "Where can I check tariffs and availability?": {
+   "zh": "在哪里查看价格和空闲情况？",
+   "ja": "料金や空き状況はどこで確認できますか？"
+  },
+  "Call 082-595-1989 for the latest information before you travel, and review the tariff in the app before starting.": {
+   "zh": "出发前请致电 082-595-1989 了解最新信息，并在开始充电前于应用内确认价格。",
+   "ja": "お出かけ前に 082-595-1989 へお電話で最新情報をご確認ください。また、充電開始前にアプリで料金をご確認ください。"
+  },
+  "I want to delete my account and data": {
+   "zh": "我想删除账户和数据",
+   "ja": "アカウントとデータを削除したい"
+  },
+  "See the app and email instructions on our <a href=\"/delete-account/\">account deletion page</a>.": {
+   "zh": "请查看<a href=\"/delete-account/\">账户删除页面</a>上的应用内及邮件申请说明。",
+   "ja": "<a href=\"/delete-account/\">アカウント削除のページ</a>で、アプリとメールでの手続き方法をご確認ください。"
+  },
+  "<p class=\"note\">This document is published in Thai, and the Thai text is the legally binding version. For questions in English, contact <a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a>.</p>": {
+   "zh": "<p class=\"note\">本文件以泰文发布，泰文版本具有法律约束力。如有疑问，请联系 <a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a>（可使用英文）。</p>",
+   "ja": "<p class=\"note\">本書はタイ語で公開されており、タイ語版が法的拘束力を有します。ご質問は <a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a> まで（英語でも可）お問い合わせください。</p>"
+  },
+  "Personal data requests": {
+   "zh": "个人数据相关请求",
+   "ja": "個人データに関するご請求"
+  },
+  "Delete your account and data": {
+   "zh": "删除您的账户和数据",
+   "ja": "アカウントとデータの削除"
+  },
+  "For users of the BCSM 1989 Co., Ltd. charging app.": {
+   "zh": "适用于 BCSM 1989 Co., Ltd. 充电应用的用户。",
+   "ja": "BCSM 1989 Co., Ltd. の充電アプリをご利用の方向け"
+  },
+  "Option 1 — In the app": {
+   "zh": "方式一 — 在应用内删除",
+   "ja": "方法1 — アプリで削除"
+  },
+  "Open the app → Profile → Account settings → Delete account → Confirm.": {
+   "zh": "打开应用 → 个人资料 → 账户设置 → 删除账户 → 确认。",
+   "ja": "アプリを開く → プロフィール → アカウント設定 → アカウントを削除 → 確認"
+  },
+  "Option 2 — By email": {
+   "zh": "方式二 — 发送邮件",
+   "ja": "方法2 — メールで申請"
+  },
+  "Email us from your registered email address, or include your registered phone number, at": {
+   "zh": "请使用注册邮箱发送邮件，或在邮件中注明注册时使用的手机号码，发送至",
+   "ja": "ご登録のメールアドレスから、またはご登録の電話番号を記載のうえ、次の宛先へメールをお送りください："
+  },
+  "with the subject \"Delete account\". We may verify your identity first.": {
+   "zh": "邮件主题为“Delete account”（删除账户）。处理前我们可能需要核实您的身份。",
+   "ja": "件名は「Delete account」（アカウント削除）としてください。手続きの前に本人確認をお願いする場合があります。"
+  },
+  "What is deleted and what is kept": {
+   "zh": "删除的数据与保留的数据",
+   "ja": "削除されるデータと保持されるデータ"
+  },
+  "Data": {
+   "zh": "数据",
+   "ja": "データ"
+  },
+  "Action": {
+   "zh": "处理方式",
+   "ja": "対応"
+  },
+  "Name, phone, email, password, vehicle data, RFID card": {
+   "zh": "姓名、电话、电子邮箱、密码、车辆信息、RFID 卡",
+   "ja": "氏名、電話番号、メールアドレス、パスワード、車両情報、RFIDカード"
+  },
+  "Deleted within 30 days": {
+   "zh": "30 天内删除",
+   "ja": "30日以内に削除"
+  },
+  "Charging, payment and receipt/tax-invoice records": {
+   "zh": "充电、付款及收据/税务发票记录",
+   "ja": "充電・支払い・領収書／税務インボイスの記録"
+  },
+  "Kept at least 5 years as required by tax/accounting law, de-linked from your account": {
+   "zh": "根据税务及会计法律规定至少保留 5 年，并与您的账户解除关联",
+   "ja": "税法・会計法の定めにより5年以上保存し、アカウントとの紐付けを解除します"
+  },
+  "Wallet balances cannot be withdrawn, exchanged for cash or refunded, including when you close your account, unless the law requires a refund (Terms of Service <a href=\"/terms/#s5\">clause 5.8</a>). Please use your remaining balance before requesting deletion. If you were charged in error or twice, ask us to review it before deleting your account (clause 5.9).": {
+   "zh": "钱包余额不可提现、兑换现金或退款，包括注销账户时，除非法律要求退款（服务条款<a href=\"/terms/#s5\">第 5.8 条</a>）。请在申请删除前用完剩余余额。如有误扣费或重复扣费，请在删除账户前申请核查（第 5.9 条）。",
+   "ja": "ウォレット残高は、アカウントを解約する場合も含め、出金、現金への交換、返金はできません。ただし法律で返金が義務付けられる場合を除きます（利用規約<a href=\"/terms/#s5\">第5.8条</a>）。削除の申請前に残高を使い切ってください。誤請求や二重請求があった場合は、アカウント削除の前に確認をご依頼ください（第5.9条）。"
+  },
+  "Opening the Fleet account application…": {
+   "zh": "正在打开车队开户申请表…",
+   "ja": "フリートアカウント申込フォームを開いています…"
+  },
+  "Tap here if nothing happens": {
+   "zh": "如页面未自动跳转，请点击此处",
+   "ja": "画面が切り替わらない場合はこちらをタップ"
+  },
+  "Opening the Fleet assessment…": {
+   "zh": "正在打开车队需求评估…",
+   "ja": "フリート利用ニーズ調査を開いています…"
+  },
+  "A preliminary assessment. It takes about 5 minutes and no documents are needed yet.": {
+   "zh": "初步评估，约需 5 分钟，暂无需上传任何文件。",
+   "ja": "簡易的な事前調査です。所要時間は約5分で、書類の添付はまだ必要ありません。"
+  },
+  "The assessment result is not approval as a Fleet customer.": {
+   "zh": "评估结果并不代表已获批成为车队客户。",
+   "ja": "調査結果はフリート顧客としての承認ではありません。"
+  },
+  "Your answers will be checked against official documents in step 2. Applications that do not match may not be approved.": {
+   "zh": "您的回答将在第 2 步与正式文件核对，如不一致可能无法通过审批。",
+   "ja": "回答内容はステップ2で正式書類と照合します。一致しない場合は承認されないことがあります。"
+  },
+  "Please answer truthfully. The form should be completed by an authorised signatory or a person appointed by the organisation.": {
+   "zh": "请如实填写，并由授权签字人或机构指派的人员填写。",
+   "ja": "事実に基づいてご回答ください。権限を持つ方、または組織から任命された方がご記入ください。"
+  },
+  "Contact details": {
+   "zh": "联系人信息",
+   "ja": "連絡先情報"
+  },
+  "Your vehicles": {
+   "zh": "您的车辆",
+   "ja": "ご利用車両"
+  },
+  "Usage pattern": {
+   "zh": "使用方式",
+   "ja": "ご利用状況"
+  },
+  "Business & payment": {
+   "zh": "经营与付款",
+   "ja": "事業内容とお支払い"
+  },
+  "We will get back to you within 2 business days.": {
+   "zh": "我们将在 2 个工作日内与您联系。",
+   "ja": "2営業日以内にご連絡いたします。"
+  },
+  "Organisation / business name": {
+   "zh": "机构 / 企业名称",
+   "ja": "組織名・事業者名"
+  },
+  "Applicant type": {
+   "zh": "申请人类型",
+   "ja": "申込者の種別"
+  },
+  "Juristic person (company, partnership, government agency)": {
+   "zh": "法人（公司、合伙企业、政府机构）",
+   "ja": "法人（会社、パートナーシップ、政府機関）"
+  },
+  "Individual / shop": {
+   "zh": "个人 / 商店",
+   "ja": "個人・商店"
+  },
+  "Contact name": {
+   "zh": "联系人姓名",
+   "ja": "ご担当者名"
+  },
+  "Contact phone number": {
+   "zh": "联系人电话",
+   "ja": "ご担当者の電話番号"
+  },
+  "A Thai number: 9–10 digits starting with 0, no dashes.": {
+   "zh": "泰国号码：以 0 开头的 9–10 位数字，不含横线。",
+   "ja": "タイの電話番号：0から始まる9〜10桁、ハイフンなし"
+  },
+  "Our bays accommodate vehicles up to tractor units and buses. DC chargers use CCS2 connectors.": {
+   "zh": "我们的车位可容纳牵引车和大客车，直流充电桩采用 CCS2 接口。",
+   "ja": "当施設の駐車スペースはトラクターヘッドやバスにも対応しています。DC充電器のコネクターはCCS2です。"
+  },
+  "Number of electric vehicles in use now": {
+   "zh": "目前使用的电动车数量（辆）",
+   "ja": "現在使用中のEV台数"
+  },
+  "Enter 0 if you have none yet but plan to buy.": {
+   "zh": "如尚无电动车但计划购买，请填 0。",
+   "ja": "まだ保有していないが購入予定の場合は0と入力してください。"
+  },
+  "Plans to add EVs in the next 12 months": {
+   "zh": "未来 12 个月的电动车增购计划",
+   "ja": "今後12か月のEV増車計画"
+  },
+  "No additions": {
+   "zh": "不增加",
+   "ja": "増車なし"
+  },
+  "Add 1–5 vehicles": {
+   "zh": "增加 1–5 辆",
+   "ja": "1〜5台増車"
+  },
+  "Add 6–20 vehicles": {
+   "zh": "增加 6–20 辆",
+   "ja": "6〜20台増車"
+  },
+  "Add more than 20 vehicles": {
+   "zh": "增加 20 辆以上",
+   "ja": "20台超を増車"
+  },
+  "Largest vehicle that will charge": {
+   "zh": "前来充电的最大车型",
+   "ja": "充電に来る最も大きい車両"
+  },
+  "Car / SUV": {
+   "zh": "轿车 / SUV",
+   "ja": "乗用車・SUV"
+  },
+  "Pickup / van": {
+   "zh": "皮卡 / 厢式车",
+   "ja": "ピックアップ・バン"
+  },
+  "4-wheel truck": {
+   "zh": "4 轮货车",
+   "ja": "4輪トラック"
+  },
+  "6-wheel truck": {
+   "zh": "6 轮货车",
+   "ja": "6輪トラック"
+  },
+  "10-wheel truck or larger / tractor unit": {
+   "zh": "10 轮及以上货车 / 牵引车",
+   "ja": "10輪以上のトラック・トラクターヘッド"
+  },
+  "Bus": {
+   "zh": "大客车",
+   "ja": "バス"
+  },
+  "Vehicle makes / models": {
+   "zh": "车辆品牌 / 型号",
+   "ja": "車両のメーカー・モデル"
+  },
+  "e.g. BYD Atto 3 × 3, Foton iBlue × 2": {
+   "zh": "例如：BYD Atto 3 × 3 辆，Foton iBlue × 2 辆",
+   "ja": "例：BYD Atto 3 × 3台、Foton iBlue × 2台"
+  },
+  "Vehicle DC charging connector": {
+   "zh": "车辆直流充电接口",
+   "ja": "車両のDC充電コネクター"
+  },
+  "CCS2 on all vehicles": {
+   "zh": "全部为 CCS2",
+   "ja": "全車CCS2"
+  },
+  "CCS2 on some vehicles": {
+   "zh": "部分为 CCS2",
+   "ja": "一部がCCS2"
+  },
+  "No CCS2 (e.g. GB/T, CHAdeMO)": {
+   "zh": "无 CCS2（如 GB/T、CHAdeMO）",
+   "ja": "CCS2なし（GB/T、CHAdeMOなど）"
+  },
+  "Don’t know": {
+   "zh": "不清楚",
+   "ja": "わからない"
+  },
+  "Preferred vehicle authentication": {
+   "zh": "希望使用的车辆认证方式",
+   "ja": "ご希望の車両認証方法"
+  },
+  "Autocharge requires the MAC address of each vehicle in the application (step 2).": {
+   "zh": "使用 Autocharge 需在申请表（第 2 步）中提供每辆车的 MAC 地址。",
+   "ja": "Autochargeを利用する場合、申込書（ステップ2）で各車両のMACアドレスが必要です。"
+  },
+  "RFID card only (tap the card at the charger)": {
+   "zh": "仅 RFID 卡（在充电桩上刷卡）",
+   "ja": "RFIDカードのみ（充電器でカードをタッチ）"
+  },
+  "Autocharge only (plug in and charge, no card needed)": {
+   "zh": "仅 Autocharge（插枪即充，无需刷卡）",
+   "ja": "Autochargeのみ（差し込むだけで充電、カード不要）"
+  },
+  "Both (Autocharge + backup RFID card)": {
+   "zh": "两者都要（Autocharge + 备用 RFID 卡）",
+   "ja": "両方（Autocharge＋予備のRFIDカード）"
+  },
+  "Not sure yet": {
+   "zh": "尚不确定",
+   "ja": "まだ決めていない"
+  },
+  "Helps us plan charging times and a price tier that suits you.": {
+   "zh": "用于为您安排合适的充电时段和价格档位。",
+   "ja": "充電時間帯と最適な料金プランの検討に使用します。"
+  },
+  "Estimated monthly charging (all vehicles combined)": {
+   "zh": "预计每月充电量（所有车辆合计）",
+   "ja": "月間の充電量の見込み（全車両の合計）"
+  },
+  "Roughly: car 1 kWh ≈ 6 km · pickup/van 1 kWh ≈ 4 km.": {
+   "zh": "大致参考：轿车 1 kWh ≈ 6 公里 · 皮卡/厢式车 1 kWh ≈ 4 公里",
+   "ja": "目安：乗用車 1 kWh ≈ 6 km · ピックアップ／バン 1 kWh ≈ 4 km"
+  },
+  "Under 1,000 kWh": {
+   "zh": "低于 1,000 kWh",
+   "ja": "1,000 kWh未満"
+  },
+  "Over 10,000 kWh": {
+   "zh": "超过 10,000 kWh",
+   "ja": "10,000 kWh超"
+  },
+  "Not known yet": {
+   "zh": "尚不清楚",
+   "ja": "まだわからない"
+  },
+  "Most frequent charging time": {
+   "zh": "最常来充电的时段",
+   "ja": "最も多い充電時間帯"
+  },
+  "Night 22:00–06:00": {
+   "zh": "夜间 22:00–06:00",
+   "ja": "夜間 22:00–06:00"
+  },
+  "Morning 06:00–10:00": {
+   "zh": "早上 06:00–10:00",
+   "ja": "朝 06:00–10:00"
+  },
+  "Daytime 10:00–16:00": {
+   "zh": "白天 10:00–16:00",
+   "ja": "日中 10:00–16:00"
+  },
+  "Evening 16:00–22:00": {
+   "zh": "傍晚 16:00–22:00",
+   "ja": "夕方 16:00–22:00"
+  },
+  "Varies": {
+   "zh": "不固定",
+   "ja": "決まっていない"
+  },
+  "Maximum vehicles that may charge at the same time": {
+   "zh": "可能同时前来充电的最多车辆数",
+   "ja": "同時に充電する可能性がある最大台数"
+  },
+  "1 vehicle": {
+   "zh": "1 辆",
+   "ja": "1台"
+  },
+  "2 vehicles": {
+   "zh": "2 辆",
+   "ja": "2台"
+  },
+  "3 or more vehicles": {
+   "zh": "3 辆及以上",
+   "ja": "3台以上"
+  },
+  "How often do your vehicles pass through Si Maha Phot (Route 304 / Route 33)?": {
+   "zh": "您的车辆多久经过一次西玛哈坡县（304号公路 / 33号公路）？",
+   "ja": "車両がシーマハーポート郡（国道304号線・33号線）を通る頻度は？"
+  },
+  "Every day": {
+   "zh": "每天",
+   "ja": "毎日"
+  },
+  "Several times a week": {
+   "zh": "每周数次",
+   "ja": "週に数回"
+  },
+  "Occasionally": {
+   "zh": "偶尔",
+   "ja": "たまに"
+  },
+  "Never": {
+   "zh": "从不经过",
+   "ja": "通らない"
+  },
+  "Do you have your own chargers at a depot or warehouse?": {
+   "zh": "在停车场或仓库是否有自有充电设施？",
+   "ja": "車庫・倉庫に自社の充電設備がありますか？"
+  },
+  "No": {
+   "zh": "没有",
+   "ja": "なし"
+  },
+  "Yes, AC chargers": {
+   "zh": "有交流充电桩",
+   "ja": "AC充電器あり"
+  },
+  "Yes, DC chargers": {
+   "zh": "有直流充电桩",
+   "ja": "DC充電器あり"
+  },
+  "Individuals / shops can use Prepaid only · Postpaid requires a security deposit.": {
+   "zh": "个人 / 商店仅可选择预付（Prepaid）· 后付（Postpaid）需缴纳保证金",
+   "ja": "個人・商店はPrepaid（前払い）のみ · Postpaid（後払い）は保証金が必要です"
+  },
+  "Years in business": {
+   "zh": "经营年限",
+   "ja": "事業年数"
+  },
+  "Less than 1 year": {
+   "zh": "不足 1 年",
+   "ja": "1年未満"
+  },
+  "1 – 3 years": {
+   "zh": "1 – 3 年",
+   "ja": "1〜3年"
+  },
+  "3 – 5 years": {
+   "zh": "3 – 5 年",
+   "ja": "3〜5年"
+  },
+  "More than 5 years": {
+   "zh": "5 年以上",
+   "ja": "5年超"
+  },
+  "Are you VAT-registered?": {
+   "zh": "是否已登记增值税（VAT）？",
+   "ja": "付加価値税（VAT）登録の有無"
+  },
+  "VAT-registered": {
+   "zh": "已登记 VAT",
+   "ja": "VAT登録あり"
+  },
+  "Not VAT-registered": {
+   "zh": "未登记 VAT",
+   "ja": "VAT登録なし"
+  },
+  "Preferred payment method": {
+   "zh": "希望的付款方式",
+   "ja": "ご希望のお支払い方法"
+  },
+  "Prepaid — transfer funds to the organisation wallet before use": {
+   "zh": "预付（Prepaid）— 使用前先转账至机构钱包",
+   "ja": "Prepaid（前払い）— ご利用前に組織ウォレットへ振込"
+  },
+  "Postpaid — 30-day credit": {
+   "zh": "后付（Postpaid）— 30 天账期",
+   "ja": "Postpaid（後払い）— 30日間のクレジット"
+  },
+  "If Postpaid, are you able to provide a security deposit of about 2 months’ usage?": {
+   "zh": "如选择后付，是否能提供约 2 个月用量的保证金？",
+   "ja": "Postpaidの場合、約2か月分の利用額に相当する保証金をご用意いただけますか？"
+  },
+  "Yes": {
+   "zh": "可以",
+   "ja": "はい"
+  },
+  "Not choosing Postpaid": {
+   "zh": "未选择后付",
+   "ja": "Postpaidは選ばない"
+  },
+  "Requirements or additional information": {
+   "zh": "需求或补充信息",
+   "ja": "ご要望・補足情報"
+  },
+  "e.g. tax invoices by branch, routes, preferred times to reserve a charging bay": {
+   "zh": "例如：需按分支机构开具税务发票、行驶路线、希望预约充电车位的时间",
+   "ja": "例：支店別の税務インボイス、走行ルート、充電スペースを予約したい時間帯など"
+  },
+  "Consent": {
+   "zh": "同意",
+   "ja": "同意"
+  },
+  "I consent to BCSM 1989 using this information to assess my enquiry and contact me about Fleet services, in line with the <a href=\"/privacy/\" target=\"_blank\" rel=\"noopener\">privacy notice</a>.": {
+   "zh": "我同意 BCSM 1989 依据<a href=\"/privacy/\" target=\"_blank\" rel=\"noopener\">隐私声明</a>，使用上述信息进行评估并就车队服务与我联系。",
+   "ja": "<a href=\"/privacy/\" target=\"_blank\" rel=\"noopener\">プライバシー通知</a>に基づき、BCSM 1989がこの情報を調査とフリートサービスに関する連絡に使用することに同意します。"
+  },
+  "Declaration": {
+   "zh": "信息确认",
+   "ja": "申告"
+  },
+  "I certify that all information in this assessment is true.": {
+   "zh": "本人确认本评估中的所有信息均真实无误。",
+   "ja": "この調査票の内容はすべて事実であることを申告します。"
+  },
+  "I am an authorised signatory, or have been appointed by the organisation to enquire about Fleet services.": {
+   "zh": "本人为授权签字人，或经机构指派就车队服务进行咨询。",
+   "ja": "私は権限を持つ者、または組織から任命されてフリートサービスについて問い合わせる者です。"
+  },
+  "Back": {
+   "zh": "返回",
+   "ja": "戻る"
+  },
+  "Next": {
+   "zh": "下一步",
+   "ja": "次へ"
+  },
+  "Submit assessment": {
+   "zh": "提交评估",
+   "ja": "回答を送信"
+  },
+  "SUBMITTED": {
+   "zh": "已提交",
+   "ja": "送信済み"
+  },
+  "Assessment received. Thank you.": {
+   "zh": "已收到您的评估，谢谢！",
+   "ja": "回答を受け付けました。ありがとうございます。"
+  },
+  "Our team will contact you within 2 business days. If suitable, we will email you a link to the account application (step 2).": {
+   "zh": "我们的团队将在 2 个工作日内与您联系。如符合条件，我们将通过电子邮件发送开户申请表（第 2 步）链接。",
+   "ja": "2営業日以内に担当者よりご連絡します。条件に合う場合は、アカウント申込書（ステップ2）のリンクをメールでお送りします。"
+  },
+  "Not contacted within 2 business days? Call <a href=\"tel:0825951989\">082-595-1989</a> or email <a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a>.": {
+   "zh": "2 个工作日内未收到联系？请致电 <a href=\"tel:0825951989\">082-595-1989</a> 或发送邮件至 <a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a>。",
+   "ja": "2営業日以内に連絡がない場合は、<a href=\"tel:0825951989\">082-595-1989</a> へお電話いただくか、<a href=\"mailto:support@bcsm1989.com\">support@bcsm1989.com</a> までメールでご連絡ください。"
+  },
+  "Page not working? Fill in the <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSepgbnSNx0f_INX93hNy56eAZLVu_ThDKhLcwQfb3MtEpgb_w/viewform?usp=pp_url&amp;entry.1169509254=%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C+bcsm1989.com\" target=\"_blank\" rel=\"noopener\">Google Form</a> instead.": {
+   "zh": "页面无法使用？请改用 <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSepgbnSNx0f_INX93hNy56eAZLVu_ThDKhLcwQfb3MtEpgb_w/viewform?usp=pp_url&amp;entry.1169509254=%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C+bcsm1989.com\" target=\"_blank\" rel=\"noopener\">Google Form</a> 填写。",
+   "ja": "このページが動作しない場合は、<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSepgbnSNx0f_INX93hNy56eAZLVu_ThDKhLcwQfb3MtEpgb_w/viewform?usp=pp_url&amp;entry.1169509254=%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B9%84%E0%B8%8B%E0%B8%95%E0%B9%8C+bcsm1989.com\" target=\"_blank\" rel=\"noopener\">Google Form</a> からご回答ください。"
+  }
+ },
+ "titles": {
+  "/": {
+   "en": "EV charging station project, Shell Khlong Rang",
+   "zh": "Shell Khlong Rang 电动车充电站项目",
+   "ja": "Shell Khlong Rang EV充電ステーション計画"
+  },
+  "/about/": {
+   "en": "Company information",
+   "zh": "公司信息",
+   "ja": "会社情報"
+  },
+  "/charging/": {
+   "en": "EV charging",
+   "zh": "电动车充电",
+   "ja": "EV充電"
+  },
+  "/around/": {
+   "en": "Around the station",
+   "zh": "站内设施与服务",
+   "ja": "施設とサービス"
+  },
+  "/location/": {
+   "en": "Location & directions",
+   "zh": "位置与交通",
+   "ja": "所在地・アクセス"
+  },
+  "/support/": {
+   "en": "Support centre",
+   "zh": "客户支持中心",
+   "ja": "サポートセンター"
+  },
+  "/terms/": {
+   "en": "Terms of service",
+   "zh": "服务条款",
+   "ja": "利用規約"
+  },
+  "/privacy/": {
+   "en": "Privacy notice",
+   "zh": "隐私声明",
+   "ja": "プライバシーポリシー"
+  },
+  "/delete-account/": {
+   "en": "Delete account & data",
+   "zh": "删除账户与数据",
+   "ja": "アカウントとデータの削除"
+  },
+  "/fleet/": {
+   "en": "Fleet needs assessment",
+   "zh": "车队需求评估",
+   "ja": "フリート利用ニーズ調査"
+  }
+ }
+}

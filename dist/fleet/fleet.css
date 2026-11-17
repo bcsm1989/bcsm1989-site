@@ -12,7 +12,7 @@
 .fleet-wrap{max-width:46rem;padding-block:2rem 4rem}
 .steps{list-style:none;display:grid;grid-template-columns:repeat(4,1fr);gap:.5rem;padding:0;margin:0 0 1.25rem;font-size:.8rem;color:var(--muted)}
 .steps li{border-top:4px solid var(--line);padding-top:.5rem;display:flex;gap:.4rem;align-items:baseline;min-width:0}
-.steps li span{font-weight:800;font-variant-numeric:tabular-nums}
+.steps li span:not([lang]){font-weight:800;font-variant-numeric:tabular-nums}
 .steps li.on,.steps li.past{border-color:var(--ochre);color:var(--ink)}
 .fleet-card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:clamp(1.25rem,4vw,2.25rem)}
 .fleet-card h2{font-size:1.5rem;margin:0}
@@ -40,5 +40,5 @@
 .nav .button[disabled]{opacity:.6;cursor:progress}
 .done{text-align:left}
 .alt{margin-top:1rem;text-align:center}
-@media (max-width:640px){.hero-bolt{display:none}.steps{font-size:0}.steps li span{font-size:.8rem}.opts:not(.stack){flex-direction:column}.nav .button{flex:1}.grow{display:none}}
+@media (max-width:640px){.hero-bolt{display:none}.steps{font-size:0}.steps li span:not([lang]){font-size:.8rem}.opts:not(.stack){flex-direction:column}.nav .button{flex:1}.grow{display:none}}
 @media (prefers-reduced-motion:no-preference){.step-pane{animation:fl .25s ease-out}@keyframes fl{from{opacity:0;transform:translateY(6px)}}}
