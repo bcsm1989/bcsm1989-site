@@ -16,8 +16,10 @@ concurrency:
 jobs:
   security:
     uses: ./.github/workflows/security.yml
+  dependency-review:
+    uses: ./.github/workflows/dependency-review.yml
   build:
-    needs: security
+    needs: [security, dependency-review]
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
