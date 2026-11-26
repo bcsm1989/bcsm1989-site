@@ -1,0 +1,16 @@
+name: Monitor public website security
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 2 * * *'
+permissions:
+  contents: read
+jobs:
+  public-check:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - run: python3 scripts/check_live_security.py

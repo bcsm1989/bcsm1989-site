@@ -1,6 +1,7 @@
 from pathlib import Path
 import html, re, json
 import i18n
+import security
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
@@ -163,5 +164,6 @@ for f in sorted((DIST/'fleet').rglob('index.html')):
         page=re.sub(r'</main>.*?</body>',lambda m:f'</main>{footer()}{quickbar()}</body>',page,count=1,flags=re.S)
     f.write_text(i18n.localize(page),encoding='utf-8')
 i18n.check()
+security.apply()
 print('Built 9 pages. Terms, privacy and deletion bodies preserved verbatim from source-original/.')
 (DIST/'sitemap.xml').write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+''.join(f'  <url><loc>https://bcsm1989.com{u}</loc></url>\n' for u in PAGES)+'</urlset>\n')
