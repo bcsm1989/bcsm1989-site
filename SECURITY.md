@@ -10,6 +10,7 @@ This is the public **bcsm1989.com** site on GitHub Pages. Python's standard libr
 - Publishing requires the security job and build checks to pass. Build/PR jobs have read-only repository permissions; Pages write and OIDC permissions are limited to the deployment job. Actions are pinned to full commit hashes.
 - Gitleaks 8.30.1 scans all fetched Git refs and current files. Its download is pinned by SHA-256 and findings are redacted. This is detection, not a guarantee that no secret exists. If a real credential is found, revoke/rotate it with its provider before cleaning history; never paste it in an issue.
 - Dependabot checks GitHub Actions versions weekly. There are no pip/npm application dependencies to audit. The Pages platform and runtime updates remain provider-managed. Review update PRs; do not auto-merge untested changes.
+- GitHub Dependency Review examines supported dependency changes in PRs and fails on new high/critical known vulnerabilities across runtime, development and unknown scopes. It is not a full audit of provider-managed software or arbitrary vendored code.
 
 ## Backups and rollback
 
