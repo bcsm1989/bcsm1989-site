@@ -1,1 +1,11 @@
 __pycache__/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.bundle
+*.log
+.DS_Store
